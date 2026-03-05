@@ -1,4 +1,4 @@
-# Welcome to your edinburgnepieruniversity project
+# Welcome to your Edinburgh Nepier University Project
 
 ## Project info
 
@@ -16,7 +16,7 @@ Changes made via edinburgnepieruniversity will be committed automatically to thi
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Edinburgh Nepier University Project.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
