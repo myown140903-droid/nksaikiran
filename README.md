@@ -67,7 +67,7 @@ This project is built with:
 
 Simply open [Edinburgh Nepier University](https://edinburghnepieruniversity.com/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+## Can I connect a custom domain to my skill coders project?
 
 Yes, you can!
 
