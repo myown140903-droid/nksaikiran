@@ -8,6 +8,7 @@ import SiteFooter from "@/components/SiteFooter";
 import Index from "./pages/Index";
 import SpeciesList from "./pages/SpeciesList";
 import SpeciesDetail from "./pages/SpeciesDetail";
+import MapView from "./pages/MapView";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
@@ -26,6 +27,7 @@ const App = () => (
               <Route path="/" element={<Index />} />
               <Route path="/species" element={<SpeciesList />} />
               <Route path="/species/:id" element={<SpeciesDetail />} />
+              <Route path="/map" element={<MapView />} />
               <Route path="/about" element={<About />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

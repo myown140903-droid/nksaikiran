@@ -9,6 +9,7 @@ const SiteHeader = () => {
   const links = [
     { to: "/", label: "Home" },
     { to: "/species", label: "Species" },
+    { to: "/map", label: "Map" },
     { to: "/about", label: "About" },
   ];
 
