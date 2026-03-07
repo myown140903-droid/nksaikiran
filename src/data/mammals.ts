@@ -39,10 +39,10 @@ export const mammals: Mammal[] = [
     length: "165–260 cm",
     lifespan: "Up to 18 years",
     observations: [
-      { id: 1, location: "Glen Coe, Highland", date: "2026-02-15", observer: "J. MacLeod", count: 12, notes: "Large herd grazing on hillside, including 3 stags" },
-      { id: 2, location: "Cairngorms NP", date: "2026-01-28", observer: "S. Fraser", count: 8, notes: "Group near pine woodland edge at dawn" },
-      { id: 3, location: "Isle of Rum", date: "2026-02-20", observer: "A. Campbell", count: 25, notes: "Mixed herd with calves from last season" },
-      { id: 4, location: "Torridon, Highland", date: "2026-01-10", observer: "M. Stewart", count: 5, notes: "Stags on ridgeline, silhouetted against sunset" },
+      { id: 1, location: "Glen Coe, Highland", lat: 56.6833, lng: -5.0833, date: "2026-02-15", observer: "J. MacLeod", count: 12, notes: "Large herd grazing on hillside, including 3 stags" },
+      { id: 2, location: "Cairngorms NP", lat: 57.0667, lng: -3.6333, date: "2026-01-28", observer: "S. Fraser", count: 8, notes: "Group near pine woodland edge at dawn" },
+      { id: 3, location: "Isle of Rum", lat: 57.0000, lng: -6.3333, date: "2026-02-20", observer: "A. Campbell", count: 25, notes: "Mixed herd with calves from last season" },
+      { id: 4, location: "Torridon, Highland", lat: 57.5500, lng: -5.5167, date: "2026-01-10", observer: "M. Stewart", count: 5, notes: "Stags on ridgeline, silhouetted against sunset" },
     ],
   },
   {
@@ -59,9 +59,9 @@ export const mammals: Mammal[] = [
     length: "18–24 cm (plus 17–18 cm tail)",
     lifespan: "3–7 years",
     observations: [
-      { id: 5, location: "Abernethy Forest, Cairngorms", date: "2026-02-12", observer: "L. Gordon", count: 3, notes: "Feeding on pine cones at supplementary feeder" },
-      { id: 6, location: "Formby, Merseyside", date: "2026-01-30", observer: "P. Williams", count: 2, notes: "Pair chasing through canopy" },
-      { id: 7, location: "Kidland Forest, Northumberland", date: "2026-02-05", observer: "R. Henderson", count: 1, notes: "Single individual burying hazelnuts" },
+      { id: 5, location: "Abernethy Forest, Cairngorms", lat: 57.2333, lng: -3.6667, date: "2026-02-12", observer: "L. Gordon", count: 3, notes: "Feeding on pine cones at supplementary feeder" },
+      { id: 6, location: "Formby, Merseyside", lat: 53.5500, lng: -3.0667, date: "2026-01-30", observer: "P. Williams", count: 2, notes: "Pair chasing through canopy" },
+      { id: 7, location: "Kidland Forest, Northumberland", lat: 55.4000, lng: -2.2000, date: "2026-02-05", observer: "R. Henderson", count: 1, notes: "Single individual burying hazelnuts" },
     ],
   },
   {
@@ -78,9 +78,9 @@ export const mammals: Mammal[] = [
     length: "55–80 cm (plus 35–45 cm tail)",
     lifespan: "Up to 10 years",
     observations: [
-      { id: 8, location: "Isle of Mull", date: "2026-02-18", observer: "K. MacDonald", count: 1, notes: "Otter feeding on shore-caught crab" },
-      { id: 9, location: "River Spey, Moray", date: "2026-01-22", observer: "D. Ross", count: 2, notes: "Female with cub, fishing in shallows" },
-      { id: 10, location: "Loch Lomond", date: "2026-02-01", observer: "F. Murray", count: 1, notes: "Brief sighting at dawn, spraint found nearby" },
+      { id: 8, location: "Isle of Mull", lat: 56.4500, lng: -5.9500, date: "2026-02-18", observer: "K. MacDonald", count: 1, notes: "Otter feeding on shore-caught crab" },
+      { id: 9, location: "River Spey, Moray", lat: 57.3333, lng: -3.3333, date: "2026-01-22", observer: "D. Ross", count: 2, notes: "Female with cub, fishing in shallows" },
+      { id: 10, location: "Loch Lomond", lat: 56.0833, lng: -4.6333, date: "2026-02-01", observer: "F. Murray", count: 1, notes: "Brief sighting at dawn, spraint found nearby" },
     ],
   },
   {
@@ -97,8 +97,8 @@ export const mammals: Mammal[] = [
     length: "48–68 cm (plus 26–35 cm tail)",
     lifespan: "Up to 15 years",
     observations: [
-      { id: 11, location: "Ardnamurchan, Highland", date: "2026-02-08", observer: "I. MacKenzie", count: 1, notes: "Camera trap image, confirmed pure wildcat markings" },
-      { id: 12, location: "Cairngorms NP", date: "2026-01-15", observer: "C. Grant", count: 1, notes: "Fleeting sighting at forest edge, dusk" },
+      { id: 11, location: "Ardnamurchan, Highland", lat: 56.7333, lng: -6.1000, date: "2026-02-08", observer: "I. MacKenzie", count: 1, notes: "Camera trap image, confirmed pure wildcat markings" },
+      { id: 12, location: "Cairngorms NP", lat: 57.0500, lng: -3.6500, date: "2026-01-15", observer: "C. Grant", count: 1, notes: "Fleeting sighting at forest edge, dusk" },
     ],
   },
   {
@@ -115,9 +115,9 @@ export const mammals: Mammal[] = [
     length: "45–58 cm (plus 16–28 cm tail)",
     lifespan: "Up to 11 years",
     observations: [
-      { id: 13, location: "Glen Affric, Highland", date: "2026-02-22", observer: "N. Sinclair", count: 1, notes: "Seen raiding bird feeder at holiday cottage" },
-      { id: 14, location: "Galloway Forest Park", date: "2026-01-18", observer: "B. Thomson", count: 2, notes: "Pair spotted at den site in old pine" },
-      { id: 15, location: "Black Isle, Highland", date: "2026-02-10", observer: "E. Gunn", count: 1, notes: "Crossing road at night, eye-shine in headlights" },
+      { id: 13, location: "Glen Affric, Highland", lat: 57.2833, lng: -5.0333, date: "2026-02-22", observer: "N. Sinclair", count: 1, notes: "Seen raiding bird feeder at holiday cottage" },
+      { id: 14, location: "Galloway Forest Park", lat: 55.1000, lng: -4.4000, date: "2026-01-18", observer: "B. Thomson", count: 2, notes: "Pair spotted at den site in old pine" },
+      { id: 15, location: "Black Isle, Highland", lat: 57.5833, lng: -4.2333, date: "2026-02-10", observer: "E. Gunn", count: 1, notes: "Crossing road at night, eye-shine in headlights" },
     ],
   },
   {
@@ -134,9 +134,9 @@ export const mammals: Mammal[] = [
     length: "43–61 cm",
     lifespan: "Up to 9 years",
     observations: [
-      { id: 16, location: "Cairngorm plateau", date: "2026-02-25", observer: "T. Sutherland", count: 4, notes: "White winter pelage, sitting in snow hollows" },
-      { id: 17, location: "Ben Lawers, Perthshire", date: "2026-01-20", observer: "G. Munro", count: 2, notes: "Moulting coat, patchy brown and white" },
-      { id: 18, location: "Angus Glens", date: "2026-02-14", observer: "H. Ogilvie", count: 6, notes: "Group feeding on heather shoots at dusk" },
+      { id: 16, location: "Cairngorm plateau", lat: 57.1167, lng: -3.6333, date: "2026-02-25", observer: "T. Sutherland", count: 4, notes: "White winter pelage, sitting in snow hollows" },
+      { id: 17, location: "Ben Lawers, Perthshire", lat: 56.5500, lng: -4.2167, date: "2026-01-20", observer: "G. Munro", count: 2, notes: "Moulting coat, patchy brown and white" },
+      { id: 18, location: "Angus Glens", lat: 56.8833, lng: -3.1500, date: "2026-02-14", observer: "H. Ogilvie", count: 6, notes: "Group feeding on heather shoots at dusk" },
     ],
   },
 ];
