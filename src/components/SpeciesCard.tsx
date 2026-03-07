@@ -8,7 +8,7 @@ interface SpeciesCardProps {
   index: number;
 }
 
-const SpeciesCard = ({ mammal, index }: SpeciesCardProps) => {
+const SpeciesCard = ({ mammal index }: SpeciesCardProps) => {
   const totalObservations = mammal.observations.reduce((sum, o) => sum + o.count, 0);
 
   return (
