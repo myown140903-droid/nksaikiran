@@ -1,6 +1,6 @@
 export interface Observation {
   id: number;
-  location: string
+  location: string;
   lat: number;
   lng: number;
   date: string;
